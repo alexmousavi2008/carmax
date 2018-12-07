@@ -1,9 +1,9 @@
 body{
-  max-width: 900px;
+  max-width: 1050px;
   float: none;
   margin: auto; 
 }
-#portfolio {  
+#carmaximg{  
     margin: 1rem 0;
     -webkit-column-count: 3; 
     -moz-column-count: 3;
@@ -15,18 +15,21 @@ body{
     -moz-column-width: 33.33333333333333%;
     column-width: 33.33333333333333%;
 }
-.tile { 
+.tile{ 
     -webkit-transform: scale(0);
     transform: scale(0);
     -webkit-transition: all 350ms ease;
     transition: all 350ms ease;
 
 }
-.tile:hover { 
+.tile:hover{
 
 }
+.tile img:hover{
+    background-color:#121212cc;	
+}
 
-.scale-anm {
+.scale-anm{
   transform: scale(1);
 }
 
@@ -43,12 +46,12 @@ p{
   float:left;
 }
 
-p:hover { 
+p:hover{ 
   cursor:pointer; 
   background: #333; 
   color:#eee; }
 
-.tile img {
+.tile img{
     max-width: 100%;
     width: 100%;
     height: auto;
@@ -56,7 +59,7 @@ p:hover {
   
 }
 
-.btn {
+.btn{
     font-family: Lato;
     font-size: 1rem;
     font-weight: normal;
@@ -74,17 +77,17 @@ p:hover {
     background-color: rgba(0, 0, 0, 0);
 }
 
-.btn:hover {
+.btn:hover{
   text-decoration: none;
 }
 
-.btn:focus {
+.btn:focus{
   outline: none;
   border-color: var(--darken-2);
   box-shadow: 0 0 0 3px var(--darken-3);
 }
 
-::-moz-focus-inner {
+::-moz-focus-inner{
   border: 0;
   padding: 0;
 }
