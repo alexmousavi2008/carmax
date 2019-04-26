@@ -131,6 +131,13 @@ p:hover{
 .overlay-image:hover .hover {
  opacity: 1;
 }
+/********* Background and text only overlay on hover *******/
+.overlay-image .normal {
+ transition: .5s ease;
+}
+.overlay-image:hover .normal {
+ opacity: 0;
+}
 .overlay-image .hover {
-    background-color: rgba(0,0,0,0.5);
+ background-color: rgba(0,0,0,0.5);
 }
